@@ -1,0 +1,16 @@
+.box {
+    margin: auto;
+    height: 200px;
+    margin-top: 100px;
+    border: 5px solid black;
+}
+
+.title {
+    text-align: center;
+}
+
+.button {
+    margin: 0;
+    position: absolute; /* positions element relative to its 1st positioned ancestor, .box */
+    left: 42%;  /* centers button */
+}
