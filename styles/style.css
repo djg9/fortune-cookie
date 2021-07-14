@@ -1,16 +1,48 @@
-.box {
-    margin: auto;
-    height: 200px;
-    margin-top: 100px;
-    border: 5px solid black;
+* {
+    background-color: red;
 }
 
 .title {
     text-align: center;
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 3px 10px black;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 39.7%;
+}
+
+.box {
+    margin: auto;
+    height: 150px;
+    margin-top: 100px;
+    border: 5px ridge yellow;
+    margin-top: 200px;
 }
 
 .button {
     margin: 0;
     position: absolute; /* positions element relative to its 1st positioned ancestor, .box */
-    left: 42%;  /* centers button */
+    left: 44%;  /* centers button */
+    top: 60%;
+    background-color: yellow;
+    border: 2px solid black;
+    color: red;
+}
+
+.p {
+    margin: auto;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 700px;
+    transform: translate(-50%, -50%); /* centers box .p horizontally */
+    text-align: center;
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px 10px black;
 }
